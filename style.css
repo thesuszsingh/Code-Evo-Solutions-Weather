@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+    font-family: Arial, sans-serif;
+    padding: 0 10%;
+    height: 100%;
+    max-width: 100%;
+    background-color: black;
+}
+main .condation{
+    height: 100%;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+}
+main{
+    position: relative;
+    background-color: #212529cf;
+    max-width: 100%;
+    height: 100%;
+}
+main nav{
+    position: relative;
+    display: flex;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+    background-color: #212529c0;
+    color: white;
+    font-size: 1.2vw;
+    justify-content: space-between;
+}
+main nav #logo{
+    margin: 0 15px;
+    max-width: 50px;
+}
+main nav #container-fluid #navbarTogglerDemo02 ul{
+    gap: 20%;
+    display: flex;
+    align-items: center;
+}
+main nav #container-fluid #navbarTogglerDemo02 ul li{
+    list-style: none;
+}
+main nav #container-fluid #navbarTogglerDemo02 ul li h2{
+    font-size: 1.2vw;
+    text-align: center;
+}
+main .information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    position: relative;
+}
+main .information #location{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+main .information #location h1{
+    font-size: 2.2vw;
+    color: white;
+
+}
+main .information #location h1 span{
+    color: #6b6c6d;
+    text-transform: capitalize;
+    margin: 0 15px;
+}
+main .information #condation{
+    display: flex;
+    flex-direction: column;
+}
+main .information #condation h1{
+    font-size: 2.2vw;
+    color: white;
+}
+main .information #condation h1 span{
+    color: #6b6c6d;
+    text-transform: capitalize;
+    margin: 0 15px;
+}
+main header{
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px 10px;
+    flex-direction: column;
+    gap: 50px;
+}
+main header .header-content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    max-width: 100%;
+    justify-content: space-evenly;
+    gap: 10px;
+    position: relative;
+}
+main header .header-content .climate-info{
+    display: flex;
+    height: auto;
+    width: 400px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    flex-wrap: wrap;
+}
+main header .header-content .climate-info nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #212529c0;
+    font-size: 1.5vw;
+    border: none;
+    text-transform: capitalize;
+}
+main header .header-content .climate-info h1{
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    margin: 15px 0;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    
+}
+@keyframes glow {
+    from{
+        text-shadow: 0 0 0px #fff;
+    }
+    to{
+        text-shadow: 0 0 3px #fff;
+    }  
+}
+main header .header-content .climate-info h1 span{
+    font-size: 1.7vw;
+    color: #6b6c6d;
+}
+main header .header-content .climate-info h3{
+    font-size: 1.8vw;
+    color: #6b6c6d;
+    text-indent: 10px;
+}
+main header #heading{
+    color: white;
+}
+form #input{
+    text-transform: capitalize;
+}
